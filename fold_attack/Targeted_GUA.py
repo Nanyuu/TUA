@@ -352,6 +352,9 @@ if __name__ == '__main__':
             opt.attack_node_num,
             opt.fake_node_num_each_attack_node, opt.ancillary_node_num)
         print(temp_log)
+
+        if not os.path.isdir("./logs"):
+            os.makedirs("./logs")
         with open("./logs/{}Test{}.txt".format(opt.dataset, time.strftime("%Y%m%d")), 'a+') as f:
             f.write(temp_log)
 
