@@ -26,7 +26,6 @@ Check for optional parameters:
 python Targeted_GUA.py --help
 ```
 
-##References
 
 
 
