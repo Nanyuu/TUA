@@ -16,7 +16,7 @@ Check the requirements.txt
 ## Usage
 Example:
 ```shell script
-./Targeted-GUA
+./TUA
 cd fold_attack
 python Targeted_GUA.py --dataset cora --target_class_id 0 
 ```
